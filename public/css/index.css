@@ -1,0 +1,18 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+
+html, body {
+    margin: 0;
+    height: 100%;
+    padding:0;
+    color: #00ffff;
+    font-family: 'Inconsolata';
+}
+
+.homepage {
+    background: url("http://wallpoper.com/images/00/42/62/34/books_00426234.jpg") no-repeat center center fixed;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

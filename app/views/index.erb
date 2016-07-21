@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Homepage</title>
+  <!-- links to CSS stylesheet in the public directory -->
+  <link rel="stylesheet" href="/css/index.css" >
+</head>
+<body> 
+
+  <div class="homepage">
+    <div class="title">
+       <h1>Book Finder</h1>
+    </div>
+    <div class="paragraph">
+       <p>This is Book Finder, where you find a book based on the genre that you choose!</p>
+    </div>
+    <div class="form">
+      <form method="POST" action="/results">
+        <input type="text" name="subject" placeholder= "Type your genre">
+        <input type="submit" value="Submit">
+      </form>
+    </div>  
+  </div>
+
+</body>
+</html>
+
