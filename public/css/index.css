@@ -6,13 +6,28 @@ html, body {
     padding:0;
     color: #00ffff;
     font-family: 'Inconsolata';
-}
-
-.homepage {
     background: url("http://wallpoper.com/images/00/42/62/34/books_00426234.jpg") no-repeat center center fixed;
     height: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    text-align: center;
+}    
+    
+.title {    
+    padding-top: 3%;
+    font-size: 3em;
+    
+}
+
+p {
+    font-size: 1em;
+    color: #f2f2f2;
+}
+
+.results-page {
+       padding-top: 3%;
+    font-size: 2.5em;
+    
 }

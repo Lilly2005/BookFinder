@@ -8,9 +8,12 @@
 <body> 
 
   <div class="results-page">
- 
-  <h1><%= @client.search_books(@query) %></h1>
-  </div>
+ <% @num = rand(1..20) %>
+  <% @result= @client.search_books(@query).to_hash["results"]["work"][@num]["best_book"]["title"].split("(")[0] %>
+
+ <h1><%= @result %> </h1>
+<a href=/><button>Back</button></a>
+  </div
 
 </body>
 </html>
