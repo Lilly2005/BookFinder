@@ -9,3 +9,4 @@ gem "sinatra"
 gem "shotgun"
 
 gem "googlebooks"
+gem "goodreads"

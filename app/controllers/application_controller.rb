@@ -19,9 +19,9 @@ class ApplicationController < Sinatra::Base
   end
   
  post '/results' do 
-    subject=params[:subject]
-    books = GoogleBooks.search('subject:#{subject}')
-    @book = books.first
+   @query = params[:query]
+    @client=Goodreads.new(api_key:"d1E4YHGem7JWF750ztY2w")
+    
    erb :results 
  end
    
